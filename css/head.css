@@ -1,0 +1,151 @@
+* {font-size:10px;box-sizing:border-box;}
+
+body {
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+    line-height: 1.42857143;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+/*	background:url('../IMG/bg.png') no-repeat;*/
+	background:rgba(50,50,50,1);
+	background-size:100% 100%;
+}
+@font-face {
+	src:"fonts/intro.otf" format("opentype");
+	src:"fonts/myriad pro.ttf" format("truetype");
+	src:"fonts/Lemondrop.ttf" format("truetype");
+	src:"fonts/PT Sans.ttf" format("truetype");
+}
+
+
+
+a:link{text-decoration:none;color:white;}
+a:visited{text-decoration:none;color:white;}
+a:click{text-decoration:none;color:black;background:green;}
+
+.hdr 
+{
+	width:100%;
+	height:100px;
+	background:#000;
+}
+
+	.hdr-wrap{max-width:1500px;width:90%;margin:0 auto;}
+
+		.hdr-logo
+		{
+			width:30%;
+			height:100%;
+			float:left;
+		}
+			.hdr-logo-wrap
+			{
+				width:100%;
+				max-width:400px;
+				margin:0 auto;
+			}
+				.logo{width:200px;height:100px;margin:10px auto;}
+					.logo img{width:100%;height:100%;}
+						#logo-main{display:block;}
+						#logo-media{display:none;}
+
+		.hdr-navbar
+		{
+			width:70%;
+			max-width:800px;
+			height:100px;
+			float:right;
+			font-family:'Bradley Hand'; /* Trattatello, Chalkboard, Bradley Hand, */
+		}
+			.hdr-navbar-wrap{width:100%;margin:0 auto;}
+				.hdr-navbar-wrap ul
+				{
+					width:100%;
+					max-width:800px;
+					height:auto;
+					list-style-type:none;
+					list-style-position:inside;
+
+					padding-top:30px;
+					margin:auto;
+					color:white;
+					display:block;
+				}
+					.hdr-navbar-wrap ul li 
+					{
+						max-width:250px;
+						width:30%;
+						height:auto;
+						display:inline-block;
+						z-index:1;
+						margin:auto auto;
+						position:relative;
+					}
+					.hdr-navbar-wrap ul li:nth-child(3){margin-left:30px;margin-right:-30px;}
+						.navbar-main{width:100%;}
+							.navbar-main ul{width:100%;padding-top:20px;}
+						.navbar-circle{width:60px;height:60px;}
+						.navbar-menu{background:rgba(122,73,0,1);border-radius:100%;}
+						.navbar-location{background:rgba(122,122,122,1);border-radius:100%;}
+						.navbar-about{background:rgba(0,51,200,1);border-radius:100%;}
+						.navbar-list-title{width:auto;position:absolute;top:10px;left:30px;z-index:1;font-size:3.2em;}
+						.navbar-list-media{position:relative;top:-55px;left:40px;font-size:3.6em;}
+
+
+.navbar-media
+{
+	display:none; 
+	width:150px;
+	height:100px;
+
+	float:right;
+}
+
+.dropdown {
+    display: inline-block;
+    width:100px;
+    height:100px;
+    position:absolute;
+    right:0;
+
+    border-left:3px solid #EEE;
+}
+
+.dropbtn {
+	background:#000;
+	width:100%;
+	height:90px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropbtn img{width:100%;height:100%;z-index:19;}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content{
+    display: none;
+    background-color: #000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 18;
+}
+.dropdown-content ul{width:200px;position: absolute;top:100px;right:0px;background:#000;padding:0 10px 10px 10px;}
+.dropdown-content ul li{width:100%;padding:0 10px;}
+/* Links inside the dropdown */
+.dropdown-content > a {
+    color: #FFF;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+/*.dropdown:hover .dropdown-content {
+    display: block;
+}*/
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {}

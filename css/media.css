@@ -1,0 +1,68 @@
+@media only screen and (min-width:1141px) and (max-width: 1440px) 
+{
+	.hdr-wrap{width:100%;}
+		.hdr-navbar{float:right;}
+			.hdr-navbar-wrap ul li{padding-left:30px;}
+
+	.navbar-main .navbar-list-title{position:absolute;top:10px;left:60px;z-index:1;font-size:3.2em;}	
+
+/*	.ftr{height:150px;}
+		.popup-button{width:90px;height:50px;position:relative;top:-30px;}*/
+}
+
+@media only screen and (min-width:769px) and (max-width: 1140px)
+{
+	.hdr-wrap{width:100%;}
+	.hdr-navbar{}
+/*		.hdr-navbar-wrap ul{}
+			.hdr-navbar-wrap ul li{width:30%;padding-left:0px;}*/
+
+	.navbar{width:auto;}
+		.navbar-list-title{position:absolute;top:10px;left:20px;z-index:1;font-size:3.2em;}			
+/*		.popup-main{display:none;}
+		.popup-media{display:block;}*/
+}
+
+@media only screen and (max-width:768px) 
+{
+	body{background:rgba(0,0,0,0.8)}
+	.hdr{height:100px;}
+		.hdr-wrap{width:100%;}
+			.hdr-logo{height:100px;float:left;}
+				.logo{width:150px;height:100px;}
+					#logo-main{display:block;}
+					#logo-media{display:none;}
+
+/*	.hdr-navbar{width:50%;float:right;margin:auto;}
+		.hdr-navbar-wrap{width:100%;margin:auto;display:inline-block;}
+			.hdr-navbar-wrap ul{height:auto;padding-top:0;margin:-20px auto auto auto;display:inline-block;}
+				.hdr-navbar-wrap ul li{width:100%;padding:20px 0px 20px 0px;display:inline-block;}*/
+
+					
+		span.navbar-list-title{top:10px;left:30px;}
+
+			.navbar-main{display:none;}
+			
+			.dropdown-wrap{display:inline-block;position:absolute;right:0px;}
+				.dropdown-content a{width:200px;}		
+		
+/*		.popup-main{display:none;}
+		.popup-media{display:block;}*/
+		.popup-wrap{min-width:auto;}
+		.popup-circles{width:200px;height:200px;}
+
+/*	.ftr{height:180px;}
+		.ftr-content ul{display:block;}
+			.ftr-content ul li a:hover{background:#DDD;color:#000;}
+			.ftr-content ul li:nth-child(1){padding:10px 50px 10px 50px;border:none;}*/
+}
+
+@media only screen and (max-width:525px)
+{
+		.popup-main{display:none;}
+		.popup-media{display:block;}
+
+/*	.ftr{height:250px;}
+		#main-display{display:none;}
+		#media-display{display:block;}*/
+}
